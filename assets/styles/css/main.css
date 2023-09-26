@@ -93,6 +93,15 @@ h1 {
   transition: color 0.25s cubic-bezier(0.86, 0, 0.07, 1), border 0.25s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
+.w-100vh {
+  width: 100vh;
+}
+.w-50vh {
+  width: 50vh;
+}
+.w-25vh {
+  width: 25vh;
+}
 .w-auto {
   width: auto;
 }
@@ -115,6 +124,15 @@ h1 {
   width: 10%;
 }
 
+.h-100vh {
+  height: 100vh;
+}
+.h-50vh {
+  height: 50vh;
+}
+.h-25vh {
+  height: 25vh;
+}
 .h-auto {
   height: auto;
 }
@@ -181,6 +199,34 @@ h1 {
 }
 .text-doted-clamp-6 {
   -webkit-line-clamp: 6;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+.overflow-visible {
+  overflow: visible;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.overflow-x-visible {
+  overflow-x: visible;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+.overflow-y-visible {
+  overflow-y: visible;
 }
 
 .box {
