@@ -87,7 +87,7 @@ let Behemot = {
             if(isSomeFalse) {
                 setTimeout(function(){
                     changeArrayText($element, originalText, arrayText);
-                }, 100);
+                }, 1000);
             }
             return;
         }
